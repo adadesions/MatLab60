@@ -2,7 +2,7 @@
 R = 5; r = 3; a = 0.81; b = 0.14; c = 1; d = 5; thata = 45; t = 1; n = 1;
 
 % a)
-xMax = sqrt( -( log(2*exp(-a^2) - 1 ))/b^2 );
+xMax = sqrt( -( log10(2*exp(-a^2) - 1 ))/b^2 );
 r0 = 0.1*xMax;
 fprintf('a) xMax = ');
 disp(xMax);
